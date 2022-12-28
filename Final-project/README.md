@@ -13,6 +13,7 @@
 ### **Создать ввод массива:**
 
 Console.WriteLine("Введите массив через запятую: ");
+
 string text = Console.ReadLine();
 
 ### **Делим элементы массива:**
@@ -27,4 +28,5 @@ string[] newArray = existArray.Where(text=>text.Length<4).ToArray();
 ### **Вывод ответа:**
 
 Console.WriteLine("Массив из строк, длина которых меньше либо равна 3:  ");
+
 Console.WriteLine(String.Join(",", newArray));
